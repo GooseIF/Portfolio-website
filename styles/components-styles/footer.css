@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--size-s);
+    margin-top: 5rem;
+    color: var(--clr-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    user-select: none;
+}

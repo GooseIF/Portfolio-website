@@ -1,0 +1,191 @@
+.about {
+    margin-top: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 100;
+    overflow: hidden;
+    color: var(--clr-main-text);
+}
+
+.about__image {
+    height: 28.6875rem;
+    width: 28.6875rem;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about__title {
+    font-size: var(--size-2xl);
+    color: var(--clr-main-text)
+}
+
+.about__description {
+    font-weight: 500;
+    max-width: 60ch;
+    font-size: var(--size-s);
+}
+
+.about__hr {
+    border-color: var(--clr-main-text);
+}
+
+.about__subtitle {
+    font-size: var(--size-s);
+}
+
+.about__image-wrap {
+    margin: 0 auto;
+
+}
+
+.about__technologies {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+}
+
+.about__list {
+    font-size: var(--size-s);
+}
+
+
+@media (min-width: 475px) {
+    .about {
+        gap: 1.5rem;
+    }
+    
+    .about__content {
+        gap: 1.5rem;
+    }
+    
+    .about__image {
+        height: 28.6875rem;
+        width: 28.6875rem;
+    }
+    
+    .about__title {
+        font-size: var(--size-3xl);
+    }
+    
+    .about__description {
+        font-size: var(--size-base);
+    }
+    
+    .about__subtitle {
+        font-size: var(--size-base);
+    }
+        
+    .about__technologies {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding-left: 1em;
+    }
+    
+    .about__list {
+        font-size: var(--size-base);
+    }
+    
+}
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .about {
+        flex-direction: row;
+    }
+
+    .about__image {
+        height: 28.6875rem;
+        width: 28.6875rem;
+    }
+    
+    .about__title {
+        font-size: var(--size-4xl);
+    }
+    
+    .about__description {
+        font-size: var(--size-l);
+    }
+    
+    .about__subtitle {
+        font-size: var(--size-l);
+    }
+        
+    .about__technologies {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding-left: 1em;
+    }
+    
+    .about__list {
+        font-size: var(--size-l);
+    }
+}
+
+@media (min-width: 1280px) {
+    .about__content {
+        gap: 2rem;
+    }
+
+    .about {
+        flex-direction: row;
+    }
+
+    .about__image {
+        height: 28.6875rem;
+        width: 28.6875rem;
+    }
+    
+    .about__title {
+        font-size: var(--size-5xl);
+    }
+    
+    .about__description {
+        font-size: var(--size-xl);
+    }
+    
+    .about__subtitle {
+        font-size: var(--size-xl);
+    }
+        
+    .about__technologies {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding-left: 1em;
+    }
+    
+    .about__list {
+        font-size: var(--size-xl);
+    }
+
+    .about__image {
+        width: 30.85rem;
+    }
+}
+
+@media (min-width: 1536px) {
+
+} 
+
+#about-anchor {
+    border-color: transparent;
+    margin-top: 15rem;
+ margin-bottom: 12.5rem;   
+}
+
+#about-anchor-russian {
+    border-color: transparent;
+    margin-top: 15rem;
+ margin-bottom: 12.5rem;   
+}

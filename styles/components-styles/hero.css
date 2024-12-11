@@ -1,0 +1,135 @@
+.hero {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 32px;
+  color: var(--clr-main-text);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero__pfp {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  border: solid 0.2rem var(--clr-strong);
+  transition: border 0.5s;
+  cursor: pointer;
+}
+
+.hero__pfp:hover {
+  border: solid 0.2rem var(--clr-red);
+}
+
+.hero__greeting {
+  font-size: var(--size-base);
+  line-height: 0.9;
+}
+
+.hero__title {
+  text-transform: uppercase;
+  font-size: var(--size-4xl);
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  color: var(--clr-strong);
+  transition: color 1s;
+}
+
+.hero__description {
+  max-width: 60ch;
+  font-size: var(--size-s);
+  font-weight: 300;
+}
+
+.hero__btn {
+  text-transform: capitalize;
+  font-size: var(--size-s);
+}
+
+@media (min-width: 475px) {
+  .hero {
+    gap: 1.5rem;
+  }
+
+  .hero__pfp {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .hero__greeting {
+    font-size: var(--size-l);
+  }
+
+  .hero__title {
+    font-size: var(--size-5xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-base);
+  }
+
+  .hero__btn {
+    font-size: var(--size-base);
+  }
+}
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  .hero__pfp {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .hero__greeting {
+    font-size: var(--size-2xl);
+  }
+
+  .hero__title {
+    font-size: var(--size-7xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-l);
+  }
+
+  .hero__btn {
+    font-size: var(--size-l);
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    gap: 2rem;
+  }
+
+  .hero__pfp {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .hero__greeting {
+    font-size: var(--size-4xl);
+  }
+
+  .hero__title {
+    font-size: var(--size-9xl);
+  }
+
+  .hero__description {
+    font-size: var(--size-xl);
+  }
+
+  .hero__btn {
+    font-size: var(--size-xl);
+  }
+}
+
+@media (min-width: 1536px) {
+}
