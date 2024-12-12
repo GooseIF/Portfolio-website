@@ -4,7 +4,7 @@ let date = new Date();
 let currentYear = date.getFullYear();
 
 function setYear() {
-  footer.innerHTML = `Ilya "Goose" ${currentYear.toString()}`;
+  footer.innerHTML = `Ilya Bolgazin ${currentYear.toString()}`;
 }
 
 setYear();
